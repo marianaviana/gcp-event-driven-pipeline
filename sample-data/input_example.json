@@ -1,0 +1,8 @@
+[
+  {
+    "id": "evt-001",
+    "timestamp": "2026-09-17T14:00:00Z",
+    "payload": "Ingestão de teste serverless",
+    "status": "PROCESSED"
+  }
+]

@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  pipeline-runner:
+    build:
+      context: ./src
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - PORT=8080
+      - FUNCTION_TARGET=process_file
+      - DATASET_ID=pipeline_data
+      - TABLE_ID=processed_records
